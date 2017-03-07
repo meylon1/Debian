@@ -119,10 +119,3 @@ __UPDATE_PROMPT() {
     PS1="$(CURRENT_EMOJI) \u@\h $ "
 }
 export PROMPT_COMMAND="__UPDATE_PROMPT"
-
-
-# Craig Peterson tested this .bashrc on March 7, 2017 at 3:20pm.
-
-
-curl 'https://raw.githubusercontent.com/heewa/emoji-prompt/master/emoji-prompt.sh' > ~/.emoji-prompt.sh
-
