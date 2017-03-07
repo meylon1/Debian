@@ -120,3 +120,4 @@ __UPDATE_PROMPT() {
 }
 export PROMPT_COMMAND="__UPDATE_PROMPT"
 
+# Craig Peterson tested this .bashrc on March 7, 2017 at 3:20pm.
