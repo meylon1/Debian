@@ -116,8 +116,7 @@ fi
 PS1='\[\e[1;36m\]\d \[\e[1;32m\]\t \[\e[1;33m\]\u@\[\e[1;35m\]\h:\w\$\[\e[0;31m\] '
 
 
-export PS1="\u\d\@***\[\e[35;47m\]*\[\e[m\] "
-
+export PS1="\u\d\@\W\\$*** "
 # Craig Peterson tested this .bashrc on March 7, 2017 at 3:20pm.
 
 
