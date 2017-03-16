@@ -114,12 +114,9 @@ if ! shopt -oq posix; then
 fi
 
 PS1='\[\e[1;36m\]\d \[\e[1;32m\]\t \[\e[1;33m\]\u@\[\e[1;35m\]\h:\w\$\[\e[0;31m\] '
-. ~/.emoji-prompt.sh
-__UPDATE_PROMPT() {
-    PS1="$(CURRENT_EMOJI) \u@\h $ "
-}
-export PROMPT_COMMAND="__UPDATE_PROMPT"
 
+
+export PS1="\u\d\@***\[\e[35;47m\]*\[\e[m\] "
 
 # Craig Peterson tested this .bashrc on March 7, 2017 at 3:20pm.
 
