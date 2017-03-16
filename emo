@@ -1,0 +1,10 @@
+. ~/.emoji-prompt.sh
+
+__UPDATE_PROMPT() {
+
+    PS1="$(CURRENT_EMOJI) \u@\h $ "
+
+}
+
+export PROMPT_COMMAND="__UPDATE_PROMPT"
+
